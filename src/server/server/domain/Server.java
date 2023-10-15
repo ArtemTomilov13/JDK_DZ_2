@@ -68,7 +68,7 @@ public class Server {
     }
 
     public String getHistory() {
-        return repository.load();
+        return (String) repository.load();
     }
 
     private void answerAll(String text){
